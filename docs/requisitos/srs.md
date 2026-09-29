@@ -268,6 +268,21 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+| Requisitos de negocio | Describen los objetivos estratégicos que la organización espera alcanzar con el sistema, representando el por qué del proyecto.| Sección 1 |
+| Objetivo de negocio | Es una meta cuantificable y medible que la organización busca alcanzar con el desarrollo del proyecto, definiendo el propósito y el valor esperado en términos estratégicos.| Sección 1.1 |
+| Visión o propuesta de valor | Es una declaración clara y concisa que describe los beneficios únicos o el valor que el sistema ofrece a sus usuarios. | Sección 1.2 |
+| Criterios de éxito | Indican cómo se evaluará el resultado del proyecto mediante indicadores de calidad y métricas de validación como usuarios activos, satisfacción, contribución de profesionales y valoraciones. | Sección 1.3 |
+| Riesgos de negocio | Señalan posibles problemas que podrían comprometer el éxito del proyecto y se utilizan para planificar su gestión.| Sección 1.4 |
+| Alcance | Establece los límites de lo que se va a desarrollar, definiendo qué objetivos, necesidades y características se incluyen y cuáles quedan fuera. | Sección 2.1 |
+| Módulo funcional | Es un bloque de alto nivel que agrupa funcionalidades relacionadas del sistema. | Sección 2.2 |
+| Entregables | Son los productos finales del proyecto, como la plataforma web funcional, la documentación técnica y de usuario, y el sistema de retroalimentación. | Sección 2.3 |
+| Requisitos legales y normativos | Obligaciones procedentes de una ley o norma aplicable que se registran en el catálogo como requisitos no funcionales (NFR).| Sección 2.5 |
+| Parte interesada | Cualquier persona, grupo u organización que tiene interés, influencia o se ve afectado por el proyecto de software | Sección 3.1 |
+| Pacientes con EII | Usuarios principales del sistema que buscan recetas personalizadas para mejorar su dieta y controlar los síntomas de su enfermedad. | Sección 3.1 |
+| Cuidadores | Familiares o profesionales que asisten a los pacientes en la gestión de su dieta, actuando como usuarios secundarios. | Sección 3.1 |
+| Coordinador | Usuario responsable de supervisar la actividad en la plataforma, gestionar reportes de contenido inadecuado, aplicar reglas de uso y administrar cuentas.Es el único rol responsable de administrar y moderar el foro, y el único habilitado para aprobar las cuentas de cuidadores y nutricionistas. | Sección 3.1 / Sección 4 / Sección 2.3 |
+| Receta adaptada | Significa encontrar recetas adecuadas al perfil, las alergias y las restricciones alimentarias del paciente, dado que el sistema no modificará automáticamente ingredientes o cantidades. | Sección 3 |
+| Nutricionista | Rol común que engloba a médicos y nutricionistas con las mismas funciones y permisos. Para actuar como tal, es necesario acreditar la condición profesional mediante documentación aportada en línea. | Sección 1.3 |
 
 ## 10. Modelos de análisis
 
