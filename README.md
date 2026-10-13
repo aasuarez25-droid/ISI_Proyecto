@@ -27,15 +27,27 @@ Los nombres de archivo no incluyen números de versión: el histórico y las ver
 │   ├── requisitos/              SRS y catálogo de requisitos
 │   ├── calidad/                  Criterios de revisión de requisitos
 │   ├── cambios/                  Registro de solicitudes de cambio
+<<<<<<< HEAD
+=======
+│   ├── planificacion/            Planes y evaluaciones de iteración
+>>>>>>> upstream/main
 │   ├── modelos/                  Modelos y diagramas del proyecto
 │   └── referencias/              Documentos externos o recibidos (no editables)
 └── releases/                    Versiones estables exportadas (p. ej. PDF)
 ```
 
+<<<<<<< HEAD
+=======
+Los planes de [E1](docs/planificacion/plan-iteracion-e1.md), [E2](docs/planificacion/plan-iteracion-e2.md) y [E3](docs/planificacion/plan-iteracion-e3.md) definen el alcance funcional y el trabajo previsto de tres iteraciones simuladas de Elaboración. E1 aborda acceso, cuentas y ayuda. E2 amplía el trabajo con salud y recetas. E3 incorpora el foro y la resolución de reportes sobre su contenido.
+
+>>>>>>> upstream/main
 ## Convenciones
 
 - Nombres de archivo en minúsculas y con guiones.
 - Sin versiones en los nombres de archivo.
 - `docs/referencias/` contiene únicamente material externo o recibido; los documentos propios viven en las demás carpetas de `docs/`.
 - `releases/` contiene solo exportaciones estables; no es la fuente editable.
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
