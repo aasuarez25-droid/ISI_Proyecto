@@ -317,41 +317,21 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
-<<<<<<< HEAD
-| Requisitos de negocio | Describen los objetivos estratégicos que la organización espera alcanzar con el sistema, representando el por qué del proyecto.| Sección 1 |
-| Objetivo de negocio | Es una meta cuantificable y medible que la organización busca alcanzar con el desarrollo del proyecto, definiendo el propósito y el valor esperado en términos estratégicos.| Sección 1.1 |
+| Requisitos de negocio | Describen los objetivos estratégicos que la organización espera alcanzar con el sistema, representando el por qué del proyecto. | Sección 1 |
+| Objetivo de negocio | Es una meta cuantificable y medible que la organización busca alcanzar con el desarrollo del proyecto, definiendo el propósito y el valor esperado en términos estratégicos. | Sección 1.1 |
 | Visión o propuesta de valor | Es una declaración clara y concisa que describe los beneficios únicos o el valor que el sistema ofrece a sus usuarios. | Sección 1.2 |
 | Criterios de éxito | Indican cómo se evaluará el resultado del proyecto mediante indicadores de calidad y métricas de validación como usuarios activos, satisfacción, contribución de profesionales y valoraciones. | Sección 1.3 |
-| Riesgos de negocio | Señalan posibles problemas que podrían comprometer el éxito del proyecto y se utilizan para planificar su gestión.| Sección 1.4 |
+| Riesgos de negocio | Señalan posibles problemas que podrían comprometer el éxito del proyecto y se utilizan para planificar su gestión. | Sección 1.4 |
 | Alcance | Establece los límites de lo que se va a desarrollar, definiendo qué objetivos, necesidades y características se incluyen y cuáles quedan fuera. | Sección 2.1 |
 | Módulo funcional | Es un bloque de alto nivel que agrupa funcionalidades relacionadas del sistema. | Sección 2.2 |
 | Entregables | Son los productos finales del proyecto, como la plataforma web funcional, la documentación técnica y de usuario, y el sistema de retroalimentación. | Sección 2.3 |
-| Requisitos legales y normativos | Obligaciones procedentes de una ley o norma aplicable que se registran en el catálogo como requisitos no funcionales (NFR).| Sección 2.5 |
-| Parte interesada | Cualquier persona, grupo u organización que tiene interés, influencia o se ve afectado por el proyecto de software | Sección 3.1 |
+| Requisitos legales y normativos | Obligaciones procedentes de una ley o norma aplicable que se registran en el catálogo como requisitos no funcionales (NFR). | Sección 2.5 |
+| Parte interesada | Cualquier persona, grupo u organización que tiene interés, influencia o se ve afectado por el proyecto de software. | Sección 3.1 |
 | Pacientes con EII | Usuarios principales del sistema que buscan recetas personalizadas para mejorar su dieta y controlar los síntomas de su enfermedad. | Sección 3.1 |
 | Cuidadores | Familiares o profesionales que asisten a los pacientes en la gestión de su dieta, actuando como usuarios secundarios. | Sección 3.1 |
-| Coordinador | Usuario responsable de supervisar la actividad en la plataforma, gestionar reportes de contenido inadecuado, aplicar reglas de uso y administrar cuentas.Es el único rol responsable de administrar y moderar el foro, y el único habilitado para aprobar las cuentas de cuidadores y nutricionistas. | Sección 3.1 / Sección 4 / Sección 2.3 |
+| Coordinador | Usuario responsable de supervisar la actividad en la plataforma, gestionar reportes de contenido inadecuado, aplicar reglas de uso y administrar cuentas. Es el único rol responsable de administrar y moderar el foro, y el único habilitado para aprobar las cuentas de cuidadores y nutricionistas. | Sección 3.1 / Sección 4 / Sección 2.3 |
 | Receta adaptada | Significa encontrar recetas adecuadas al perfil, las alergias y las restricciones alimentarias del paciente, dado que el sistema no modificará automáticamente ingredientes o cantidades. | Sección 3 |
 | Nutricionista | Rol común que engloba a médicos y nutricionistas con las mismas funciones y permisos. Para actuar como tal, es necesario acreditar la condición profesional mediante documentación aportada en línea. | Sección 1.3 |
-=======
-| Paciente | Persona con EII que utiliza la plataforma para gestionar sus datos de salud y encontrar recetas adecuadas a su perfil. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §2 y §3 |
-| Cuidador | Persona que cuida a uno o varios pacientes y cuyo acceso a los datos de salud de cada uno requiere su autorización expresa. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §2 |
-| Relación de cuidado | Asociación entre un paciente y un cuidador aceptada por el paciente. Mientras esté vigente, permite al cuidador acceder únicamente a los datos de salud autorizados. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §2; [acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.2.3 |
-| Nutricionista | Rol profesional común a médicos y nutricionistas acreditados. Una vez aprobado, puede publicar y validar recetas en la plataforma. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §1.2, §1.3 y §3 |
-| Acreditación profesional | Presentación y revisión de documentación oficial para habilitar las funciones reservadas al rol de nutricionista. | [Acta de captura de requisitos de UR-01](../captura/acta-captura-requisitos-ur-01.md), §2.6; [acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §1.3 |
-| Coordinador | Rol responsable de administrar y moderar el foro y de aprobar las cuentas de cuidadores y nutricionistas. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §4; [acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.3.2 |
-| Alias | Identificador único elegido durante el registro que se muestra en el foro y otros espacios públicos como identidad visible de la persona usuaria. | [Acta de captura de requisitos de UR-01](../captura/acta-captura-requisitos-ur-01.md), §2.1 y §2.2 |
-| Cuenta activa | Cuenta cuyo correo electrónico ya se ha verificado mediante el enlace de activación. La activación no habilita por sí sola las funciones profesionales, que requieren aprobación. | [Acta de captura de requisitos de UR-01](../captura/acta-captura-requisitos-ur-01.md), §2.4 y §2.6 |
-| Datos de salud | Información relativa a la salud de un paciente, de carácter privado, cuyo acceso por cuidadores o nutricionistas depende de la autorización correspondiente. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §2 y §7.1; [acta de captura de requisitos de UR-05](../captura/acta-captura-requisitos-ur-05.md), §2.6 |
-| Perfil de salud | Conjunto de datos de salud asociados a un paciente que la plataforma puede utilizar para mostrarle recetas adecuadas. Su representación concreta sigue pendiente de decidir. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §2; [acta de captura de requisitos de UR-05](../captura/acta-captura-requisitos-ur-05.md), §4 |
-| Dato fisiológico | Medición del estado físico o de salud introducida por el paciente, como peso, altura, presión arterial, frecuencia cardíaca o temperatura corporal. | [Acta de captura de requisitos de UR-05](../captura/acta-captura-requisitos-ur-05.md), §2.1 |
-| Restricción alimentaria | Condición declarada por un paciente que debe tenerse en cuenta al buscar recetas adecuadas para él. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §3 |
-| Receta adaptada | Receta adecuada al perfil, las alergias y las restricciones alimentarias declaradas por el paciente; el sistema no modifica automáticamente sus ingredientes ni cantidades. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §3 |
-| Receta propuesta | Receta aportada por un paciente o cuidador que necesita la validación de un nutricionista antes de publicarse como validada. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §3 |
-| Receta validada | Receta publicada directamente por un nutricionista o aprobada por él tras haber sido propuesta por un paciente o cuidador. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §3 |
-| Publicación de salud | Artículo breve sobre alimentación y hábitos de vida saludables dirigido a pacientes y cuidadores, publicado por un nutricionista. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §5 |
-| Reporte de contenido | Aviso de una persona usuaria sobre contenido que considera inapropiado y que corresponde revisar al coordinador. | [Acta de captura de requisitos generales](../captura/acta-captura-requisitos-generales.md), §4; [acta de acuerdos técnicos y operativos](../captura/acta-acuerdos-tecnicos-operativos.md), §2.4.1 |
->>>>>>> upstream/main
 
 ## 10. Modelos de análisis
 
